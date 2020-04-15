@@ -3164,7 +3164,7 @@ object {
 ## >= 768px
 --------------------------------------------------------------*/
 
-@media screen and (min-width: 63.5em) {
+@media screen and (min-width: 48em) {
   #page {
     padding: 0 2%;
   }
@@ -3190,7 +3190,7 @@ object {
 
   .featured-content-wrapper.layout-two .hentry,
   .featured-content-wrapper.layout-four .hentry {
-    width: 50%;
+    width: 50%; 
   }
 
   .featured-content-wrapper.layout-three .hentry {
@@ -3394,6 +3394,32 @@ object {
     display: inline-block;
     width: auto;
   }
+
+  .featured-content-wrapper .entry-header {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    padding: 35px;
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+    transform: translateY(-30%);
+    background-color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+
+  .featured-content-wrapper a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .featured-content-wrapper a:hover,
+  .featured-content-wrapper a:focus {
+    color: rgba(255, 255, 255, 0.70)
+  }
+
 }
 
 
@@ -3531,31 +3557,6 @@ object {
 
   .blog-section-headline {
     margin: 49px;
-  }
-
-  .featured-content-wrapper .entry-header {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    right: 0;
-    padding: 35px;
-    -webkit-transform: translateY(-30%);
-    -moz-transform: translateY(-30%);
-    -ms-transform: translateY(-30%);
-    -o-transform: translateY(-30%);
-    transform: translateY(-30%);
-    background-color: rgba(0, 0, 0, 0.25);
-    text-align: center;
-  }
-
-  .featured-content-wrapper a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .featured-content-wrapper a:hover,
-  .featured-content-wrapper a:focus {
-    color: rgba(255, 255, 255, 0.70)
   }
 
   .post-navigation {
